@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\Blazor-Api-Identity.Client.csproj": {}
+  },
+  "projects": {
+    "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\Blazor-Api-Identity.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\Blazor-Api-Identity.Client.csproj",
+        "projectName": "Blazor-Api-Identity.Client",
+        "projectPath": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\Blazor-Api-Identity.Client.csproj",
+        "packagesPath": "C:\\Users\\Jake\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Shared\\Blazor-Api-Identity.Shared.csproj": {
+                "projectPath": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Shared\\Blazor-Api-Identity.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Shared\\Blazor-Api-Identity.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Shared\\Blazor-Api-Identity.Shared.csproj",
+        "projectName": "Blazor-Api-Identity.Shared",
+        "projectPath": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Shared\\Blazor-Api-Identity.Shared.csproj",
+        "packagesPath": "C:\\Users\\Jake\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jake\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
