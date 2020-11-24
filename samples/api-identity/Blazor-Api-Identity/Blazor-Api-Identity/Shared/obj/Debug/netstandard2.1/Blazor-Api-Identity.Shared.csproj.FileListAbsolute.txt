@@ -1,0 +1,9 @@
+E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Shared\bin\Debug\netstandard2.1\Blazor-Api-Identity.Shared.deps.json
+E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Shared\bin\Debug\netstandard2.1\Blazor-Api-Identity.Shared.dll
+E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Shared\bin\Debug\netstandard2.1\Blazor-Api-Identity.Shared.pdb
+E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Shared\obj\Debug\netstandard2.1\Blazor-Api-Identity.Shared.csprojAssemblyReference.cache
+E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Shared\obj\Debug\netstandard2.1\Blazor-Api-Identity.Shared.AssemblyInfoInputs.cache
+E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Shared\obj\Debug\netstandard2.1\Blazor-Api-Identity.Shared.AssemblyInfo.cs
+E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Shared\obj\Debug\netstandard2.1\Blazor-Api-Identity.Shared.csproj.CoreCompileInputs.cache
+E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Shared\obj\Debug\netstandard2.1\Blazor-Api-Identity.Shared.dll
+E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Shared\obj\Debug\netstandard2.1\Blazor-Api-Identity.Shared.pdb
