@@ -28,48 +28,55 @@ using System.Net.Http.Json;
 #nullable disable
 #nullable restore
 #line 3 "E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Client\_Imports.razor"
-using Microsoft.AspNetCore.Components.Forms;
+using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 4 "E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Client\_Imports.razor"
-using Microsoft.AspNetCore.Components.Routing;
+using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 5 "E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Client\_Imports.razor"
-using Microsoft.AspNetCore.Components.Web;
+using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 6 "E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Client\_Imports.razor"
-using Microsoft.AspNetCore.Components.WebAssembly.Http;
+using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 7 "E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Client\_Imports.razor"
-using Microsoft.JSInterop;
+using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 8 "E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Client\_Imports.razor"
-using Blazor_Api_Identity.Client;
+using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 9 "E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Client\_Imports.razor"
+using Blazor_Api_Identity.Client;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 10 "E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Client\_Imports.razor"
 using Blazor_Api_Identity.Client.Shared;
 
 #line default
@@ -77,7 +84,28 @@ using Blazor_Api_Identity.Client.Shared;
 #nullable disable
 #nullable restore
 #line 2 "E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Client\Pages\FetchData.razor"
+using Microsoft.AspNetCore.Authorization;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Client\Pages\FetchData.razor"
+using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Client\Pages\FetchData.razor"
 using Blazor_Api_Identity.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Client\Pages\FetchData.razor"
+           [Authorize]
 
 #line default
 #line hidden
@@ -91,13 +119,20 @@ using Blazor_Api_Identity.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 38 "E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Client\Pages\FetchData.razor"
+#line 41 "E:\Projects\Blazor\samples\api-identity\Blazor-Api-Identity\Blazor-Api-Identity\Client\Pages\FetchData.razor"
        
     private WeatherForecast[] forecasts;
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+        try
+        {
+            forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+        }
+        catch (AccessTokenNotAvailableException exception)
+        {
+            exception.Redirect();
+        }
     }
 
 

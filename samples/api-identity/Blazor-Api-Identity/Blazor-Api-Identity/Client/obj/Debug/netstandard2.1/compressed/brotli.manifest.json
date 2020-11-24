@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\dZFQl4e82JjwPM-I1qiSw--RgrgbFwXHCwhpnLvutSM=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\viKkhqjWlhhsn3-rzO7PNU0yaVRV18ixPcJU8ntoeV0=.hash",
       "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Blazor-Api-Identity.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Blazor-Api-Identity.Client.dll.br"
     },
@@ -161,6 +161,51 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
     },
     {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\fXppSpNZWwDJhYYWU_uQSwXoC5Krwc_3mqRwKJz0FHY=.hash",
+      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Http.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Http.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_kkwUt5LUrFrnFcHiSvLP3Ps50UAimB6C5utgehqOo4=.hash",
+      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Logging.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\oK1Bjv95fH_hSbogUkJE_xDAI203kJG6lL6Sm-NuPWg=.hash",
+      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.DependencyInjection.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=.hash",
+      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=.hash",
+      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Options.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\y-FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK_gtKc=.hash",
+      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Primitives.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\B6Gn4q5YXOHqCjaQ-7KoMgOzlqr15tlLcayLhaLVLxQ=.hash",
+      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Blazor-Api-Identity.Shared.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Blazor-Api-Identity.Shared.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\4NUQ26HmvXRi8smc0jz9940OUECDLQnoMWQLrMLe0ok=.hash",
+      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Authorization.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Authorization.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\825GQI5nG1C1WqLD1SNKSpjzLCNbH2-KChgjBL0SSXI=.hash",
+      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Metadata.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Metadata.dll.br"
+    },
+    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\bSgsT2x5xMvs8mara5wU_EJwcyHa9GVMU85HwhWcdWM=.hash",
       "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.Web.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
@@ -186,29 +231,24 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=.hash",
-      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\AbWZIV0k4GOA_qT6O3719kiJxV5XbyEXKBWjy7wE8w4=.hash",
+      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.Authentication.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Kcn77wt7WzmzbvHjSQgssVFRPgJq-Vi4Due1fIveI6k=.hash",
-      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Blazor-Api-Identity.Shared.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Blazor-Api-Identity.Shared.dll.br"
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\5lY1KL-pA7kS-OYycrkrhkXJKFHJHVbdmUTyPYaqDiM=.hash",
+      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Authorization.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash",
+      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.br"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FJ_rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=.hash",
       "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.WebAssembly.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\oK1Bjv95fH_hSbogUkJE_xDAI203kJG6lL6Sm-NuPWg=.hash",
-      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.DependencyInjection.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\y-FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK_gtKc=.hash",
-      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Primitives.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\n0Ag7rF7ZQamklPSZkakIXkRoa6JwlmPSS0cRaAhJQM=.hash",
@@ -246,32 +286,17 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.FileProviders.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_kkwUt5LUrFrnFcHiSvLP3Ps50UAimB6C5utgehqOo4=.hash",
-      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Logging.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=.hash",
-      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Options.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash",
-      "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.br"
-    },
-    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash",
       "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.WebAssembly.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ZEVA4syW0h8bRIWtSOpgQ_Mjwztc5TTQerZHlp7mOPI=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\d63IJpOUEsMakZAjePVdjE_aunqkl5-cEX1ISY9EiwY=.hash",
       "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Blazor-Api-Identity.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Blazor-Api-Identity.Client.pdb.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\DMKRzN1WdDfxx4pX6Pq_BfEfVd9rHomvz_72ngZeY1A=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\yloJunK5K0BwaQ4jqy4_ed4Q8hoLfJ-m51Q1ii01vOA=.hash",
       "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Blazor-Api-Identity.Shared.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Blazor-Api-Identity.Shared.pdb.br"
     },
@@ -296,7 +321,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\rjD1kpiCusZLcuDdV7zLzMaEWELUHaaKew4xgqN5xhY=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\hPLURDYtj6oeyVdKIXB-vHuZaLae-2VGP8SOxolxsnY=.hash",
       "Source": "E:\\Projects\\Blazor\\samples\\api-identity\\Blazor-Api-Identity\\Blazor-Api-Identity\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }
